@@ -1,0 +1,64 @@
+.header {
+  padding-top: 21px;
+  padding-bottom: 21px;
+  position: absolute;
+  width: 100%;
+  justify-content: space-between;
+  .header1 {
+    align-items: center;
+    justify-content: space-between;
+    @media screen and (min-width: $screen-md) {
+      display: flex;
+    }
+    .imgsheader {
+      display: flex;
+      align-items: center;
+      @media screen and (max-width: $screen-sm) {
+        justify-content: space-between;
+      }
+      @media screen and (min-width: $screen-sm) {
+        justify-content: space-between;
+      }
+      .wavescoheader {
+        width: 112.62px;
+        height: 17.24px;
+      }
+      @media screen and (min-width: $screen-md) {
+        .frame81header {
+          display: none;
+        }
+      }
+    }
+    .ulheader {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      list-style-type: none;
+      text-decoration: none;
+      @media screen and (max-width: $screen-sm) {
+        display: none;
+      }
+      .aheader {
+        white-space: nowrap;
+        color: $color-description-dark;
+        margin-left: 18px;
+        margin-right: 18px;
+        
+        }
+        .primeiroa {
+          color: $color-pure-white;
+        } 
+        .loginheader {
+          margin-right: 0px;
+          background-color: $color-deep-blue;
+          color: $color-pure-white;
+          border-radius: 8px;
+          padding: 10px 20px;
+      }
+    }
+  }
+}
+
+
+
+

@@ -1,0 +1,54 @@
+.footer {
+    background-color: $color-dark-blue;
+}
+
+.cardsfooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (max-width: $screen-sm) {
+        display: block;
+    }
+
+
+.primeirocardfooter {
+    @media screen and (max-width: $screen-sm) {
+        margin: 0px;
+    }
+    .card1 {
+        margin-right: 152px;
+        @media screen and (max-width: $screen-sm) {
+            margin: 0px;
+        }
+    }
+}
+
+            .cardsfinais3 {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;        
+                justify-content: space-between;
+            .card2 {
+                margin-right: 152px;
+                @media screen and (max-width: $screen-md)  {
+                 margin-right: 66px;
+                }
+               
+            }
+
+            .card3 {
+                margin-right: 152px;
+                @media screen and (max-width: $screen-md) {
+                    margin: 0px;
+                }
+        
+            }
+
+            .card4 {
+                @media screen and (max-width: $screen-md) {
+                    margin: 0px;
+                }
+            }  
+        }
+    }

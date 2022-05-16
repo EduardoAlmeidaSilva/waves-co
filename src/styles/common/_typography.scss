@@ -1,0 +1,406 @@
+p {
+  font-family: $font-text;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: left;
+  line-height: 30px;
+  color: $color-gray;
+  margin-bottom: 26px;
+  margin-top: 0;
+
+  b {
+    color: $color-dark;
+  }
+
+  @media screen and (max-width: $screen-sm) {
+    line-height: 26px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  font-family: $font-display;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 70px;
+  color: $color-primary;
+  margin-top: 0;
+  margin-bottom: 55px;
+
+  small {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: $color-second;
+    display: block;
+  }
+
+  &.bordered {
+    margin-bottom: 30px;
+  }
+
+  &.text-content {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 0.09em;
+  }
+
+  @media screen and (max-width: $screen-sm) {
+    font-size: 42px;
+    line-height: 50px;
+  }
+}
+
+.border-text {
+  width: 70px;
+  height: 4px;
+  background-color: $color-second;
+  margin-bottom: 40px;
+
+  &._white {
+    background-color: white;
+  }
+}
+
+//Link
+a {
+  color: $color-link;
+  text-decoration: none;
+  transition: 0.3s;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.list {
+  padding: 0 0 0 16px;
+  margin: 0;
+
+  li {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    font-style: italic;
+  }
+}
+
+//transformação da fonte
+.uppercase {
+  text-transform: uppercase !important;
+}
+.capitalize {
+  text-transform: capitalize !important;
+}
+.transform-none {
+  text-transform: none !important;
+}
+
+.decoration-none {
+  text-decoration: none !important;
+}
+
+// alinhamento do texto
+.text-center {
+  text-align: center !important;
+}
+.text-left {
+  text-align: left !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-centered {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+// Weight
+.text-light {
+  font-weight: 300 !important;
+}
+.text-normal {
+  font-weight: 400 !important;
+}
+.text-semibold {
+  font-weight: 500 !important;
+}
+.text-bold {
+  font-weight: 700 !important;
+}
+
+// cores do texto
+.text-lgray {
+  color: $color-lgray !important;
+}
+.text-gray {
+  color: $color-gray !important;
+}
+.text-dark {
+  color: $color-dark !important;
+}
+
+.text-white {
+  color: white !important;
+}
+.text-black {
+  color: black !important;
+}
+
+.text-primary {
+  color: $color-primary !important;
+}
+.text-second {
+  color: $color-second !important;
+}
+.text-second-dark {
+  color: $color-primary !important;
+}
+
+.text-link {
+  color: $color-link !important;
+}
+
+.text-alert {
+  color: $color-alert !important;
+}
+.text-danger {
+  color: $color-danger !important;
+}
+.text-success {
+  color: $color-success !important;
+}
+
+// fontes do texto
+.font-display {
+  font-family: $font-display !important;
+}
+.font-text {
+  font-family: $font-text !important;
+}
+
+.text-italic {
+  font-style: italic !important;
+}
+
+.textcabeçalho {
+  font-family: $font-display;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+
+.textologincabeçalho {
+  font-family: $font-display;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.doistitulosprincipais {
+ color: $color-title-light; 
+  font-family: $font-display;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 146.5%;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+.downloadfree {
+  font-family: $font-text;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 170%;
+  letter-spacing: -0.05em;
+  text-align: center;
+}
+.campopesquisa {
+  font-family: $font-text;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+}
+.trykeyword {
+  font-family: $font-text;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 172%;
+  letter-spacing: -0.05em;
+  text-align: center;
+}
+.avaliableetextopessoas { 
+  font-family: $font-text;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 172%;
+}
+.trustedby {
+  font-family: $font-display;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+.subtitulos {
+  font-family: $font-display;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 45px;
+  letter-spacing: -0.02em;
+  
+}
+.playmusic {
+  font-family: $font-text;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 138%;
+  letter-spacing: -0.05em;
+ margin-bottom: 5px;
+}
+.tempomusic {
+  font-family: $font-text;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 172%;
+  letter-spacing: -0.05em;
+}
+.doisseeall {
+  font-family: $font-display;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+}
+.quatroinformacoesenomepessoasetitulofooter {
+  font-family: $font-text;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 172%;
+  letter-spacing: -0.05em;
+ 
+}
+.findthejoinpremium {
+  font-family: $font-text;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 189%;
+  letter-spacing: -0.05em;
+  text-align: center;
+}
+.testocard {
+  font-family: $font-text;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 172%;
+  letter-spacing: -0.05em;
+  
+}
+
+.freestartfrom {
+  font-family: $font-text;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 170%;
+  letter-spacing: -0.05em;
+  @media screen and (max-width:$screen-sm){
+    margin: 0px;
+  }
+}
+
+.getstarted {
+  font-family: $font-display;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+.testimonials {
+  font-family: $font-display;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+}
+.heargood {
+  font-family: $font-display;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 160%;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+.textodas3fotosfinais {
+  font-family: $font-text;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 172%;
+  text-align: center;
+}
+.textofooter {
+  font-family: $font-text;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: -0.05em;
+  
+}
+
+.wavescoallrightsreserved {
+  font-family: $font-text;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 172%;
+  
+}
+.colorbraveyellow {
+  color: $color-brave-yellow;
+}
+.colordarkblue {
+  color: $color-dark-blue;
+}
+.colordeepblue {
+color: $color-deep-blue;
+}
+.colorbraveblue{
+  color: $color-brave-blue;
+}
+.colordescriptionlight {
+  color: $color-description-light;
+}
+.colortitlelight {
+  color: $color-title-light;
+}
+.colortitledark {
+  color: $color-title-dark;
+}
+.colordescriptiondark {
+  color: $color-description-dark;
+}
+.colorpurewhite {
+ color: $color-pure-white;
+}
+.colorpureblack {
+  color: $color-pure-black;
+}
+
+
